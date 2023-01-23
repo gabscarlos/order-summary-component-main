@@ -1,0 +1,136 @@
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+.background {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    background-color: hsl(225, 100%, 94%);
+    width: 100%;
+    overflow: hidden;
+    margin-top: -70px;
+}
+
+
+.card {
+    position: relative;
+    z-index: 1;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    box-shadow: 0px 0px 10px hsl(224, 23%, 55%);    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.card__photo img {
+    padding: 0;
+    max-width: 400px;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.card__title {
+    width: 100%;
+}
+
+.card__title h2 {
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+.card__description p {
+    font-weight: 300;
+    text-align: center;
+}
+
+.card__plan {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: hsl(225, 100%, 94%);
+    border-radius: 10px;
+    margin-left: 15px;
+    width: 90%;
+}
+
+.card__plan img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card__plan h4 {
+    display: flex;
+    flex: 1;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    padding: 3px;
+}
+
+.card__plan a {
+    display: flex;
+    flex: 1;
+    color: hsl(245, 75%, 52%);
+    font-size: 15px;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.card__plan p {
+    display: flex;
+    flex: 2;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.card__button {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.card__button button {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    border: 0;
+    font-weight: 700;    
+    color: hsl(225, 100%, 98%);
+    padding: 0.7rem 6rem;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px hsl(224, 23%, 55%); 
+}
+
+.card__cancel {
+    width: 90%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 15px;
+}
+
+footer {
+    margin-top: 90px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
